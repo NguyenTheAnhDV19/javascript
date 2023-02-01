@@ -1,0 +1,56 @@
+p{
+    font-family: Arial;
+}
+
+#youtube-button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+/* pseudo class */
+#youtube-button:hover{
+    opacity: 0.5;
+    box-shadow: 5px 5px 10px black;
+}
+
+#youtube-button:active{
+    background-color: blue;
+}
+
+#messenger-button{
+    background-color: aqua;
+    color: brown;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+
+#messenger-button:hover{
+    opacity: 0.5;
+}
+
+#messenger-button:active{
+    background-color: black;
+}
+
+.text-style{
+    font-size: 13px;
+    font-weight:bold ;
+    width: 100px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
