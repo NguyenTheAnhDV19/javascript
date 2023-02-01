@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project</title>
+  <link href="project.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1> <b>Put title here</b> </h1>
+  <button id="youtube-button">
+    <a href=https://www.youtube.com/watch?v=G3e-cpL7ofc&list=PLEPye7A7EcQZrT3VSBb7jtxnxIfY3yyG6>youtube</a>
+  </button>
+
+  <button id="messenger-button">
+    <a href="https://www.messenger.com/t/100078339694923/"> messenger</a>
+  </button>
+
+  <p class="text-style">press on the links up there</p>
+
+  <p>
+    THE END
+  </p>
+</body>
+
+</html>
