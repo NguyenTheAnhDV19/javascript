@@ -1,0 +1,130 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-bar{
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    border-bottom: 1px solid green;
+    padding-bottom: 10px;
+    box-shadow: inset 1px 2px 10px green;
+}
+
+#nav-icon{
+    flex:1;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search{
+    flex:2;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#search #search-bar{
+    width: 60%;
+    height:80%;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    border: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    position: relative;
+}
+
+#search-img{
+    width: 100%;
+}
+
+#button-search{
+    height:35px;
+    width:35px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    background-color: white;
+    margin-left: -1px;
+}
+
+#button-search:active{
+    background-color: black;
+}
+
+#account-icon{
+    flex:1;
+    position: relative;
+}
+
+#account-icon #email-icon{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#menu{
+    display: none;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+
+#home,
+#contact,
+#about{
+    text-decoration: none;
+    font-weight: bold;
+    color: purple;
+}
+
+#email-icon:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    #menu{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        color: red;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #nav-icon{
+        background-color: aquamarine;
+        display: flex;
+        flex-flow: column;
+        position: fixed;
+        left:0;
+        top:-100%;
+    }
+
+    #home,
+    #contact,
+    #about{
+        background-color: aquamarine;
+}
+
+    #nav-icon.active{
+        top:7%;
+    }
+  }
+
+@media only screen and (max-width: 1000px){
+    .main-project{
+        grid-template-columns: 1fr 1fr;
+    }
+}
